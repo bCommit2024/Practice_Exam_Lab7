@@ -8,7 +8,9 @@ public class FizzBuzz
 {
     //After Refactoring
     public static String fizzBuzz(int num){
-        if (num%15 == 0){
+        if (num==0){
+            return "0";
+        } else if (num%15 == 0){
             return "FizzBuzz";
         }else if (num%5 == 0){
             return "Buzz";
