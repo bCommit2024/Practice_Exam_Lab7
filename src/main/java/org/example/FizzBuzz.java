@@ -6,6 +6,7 @@ package org.example;
  */
 public class FizzBuzz
 {
+    //Before Refactoring
     public static String fizzBuzz(int num){
         if (num == 1){
             return "1";
