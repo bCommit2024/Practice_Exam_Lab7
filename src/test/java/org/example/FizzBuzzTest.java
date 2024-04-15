@@ -21,4 +21,9 @@ public class FizzBuzzTest {
     public void testFizzBuzz0(){
        assertEquals(FizzBuzz.fizzBuzz(0),strFizzBuzzAnswer[0]);
     }
+
+    @Test
+    public void testFizzBuzz1(){
+        assertEquals(FizzBuzz.fizzBuzz(1),strFizzBuzzAnswer[1]);
+    }
 }
